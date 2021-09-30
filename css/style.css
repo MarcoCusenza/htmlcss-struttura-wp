@@ -26,17 +26,22 @@ body{
 .container{
     margin: auto;
     width: 80vw;
+    border-radius: 10px;
+}
+
+.margin-bot-std{
+    margin-bottom: 3vh;
 }
 
 
 /* +++++ HEADER +++++ */
 .header{
-    
 }
 
 
 /* +++++ JUMBOTRON +++++ */
-
+.jumbotron{
+}
 
 
 /* +++++ MAIN +++++ */
@@ -52,3 +57,9 @@ body{
     height: 10vh;
     background-color: violet;
 }
+
+.debug .jumbotron{
+    height: 30vh;
+    background-color: rgb(231, 231, 133);
+}
+
