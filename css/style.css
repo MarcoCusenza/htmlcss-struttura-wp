@@ -6,7 +6,7 @@
 }
 
 body{
-    padding: 5vh;
+    padding: 3vh;
 }
 
 .left{
@@ -26,7 +26,6 @@ body{
 .container{
     margin: auto;
     width: 80vw;
-    border-radius: 10px;
 }
 
 .margin-bot-std{
@@ -40,12 +39,26 @@ body{
 
 
 /* +++++ JUMBOTRON +++++ */
-.jumbotron{
+.jumbo{
 }
 
 
 /* +++++ MAIN +++++ */
+.main{
+}
 
+.main-section{
+    margin-bottom: 2vh;
+}
+
+.side{
+    width: 18vw;
+}
+
+.central{
+    width: 40vw;
+    margin: 0 2vw 0 2vw;
+}
 
 
 /* +++++ FOOTER +++++ */
@@ -53,6 +66,12 @@ body{
 
 
 /* +++++ DEBUG +++++ */
+
+/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
+.debug .container{
+    border-radius: 50px;
+}
+
 .debug .header{
     height: 10vh;
     background-color: violet;
@@ -63,3 +82,21 @@ body{
     background-color: rgb(231, 231, 133);
 }
 
+/* al main non serve altezza perché ha già del contenuto */
+.debug .main{
+    background-color: rgb(31, 133, 230);
+}
+
+.debug .top{
+    height: 5vh;
+}
+
+/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
+.debug .main-section{
+    background-color: lightblue;
+    border-radius: 50px;
+}
+
+.debug .vertical{
+    height: 30vh;
+}
