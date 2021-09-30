@@ -30,7 +30,9 @@ body{
 
 
 /* +++++ HEADER +++++ */
-
+.header{
+    
+}
 
 
 /* +++++ JUMBOTRON +++++ */
@@ -46,3 +48,7 @@ body{
 
 
 /* +++++ DEBUG +++++ */
+.debug .header{
+    height: 10vh;
+    background-color: violet;
+}
