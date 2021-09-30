@@ -45,6 +45,7 @@ body{
 
 /* +++++ MAIN +++++ */
 .main{
+    margin-bottom: 1vh;
 }
 
 .main-section{
@@ -99,4 +100,9 @@ body{
 
 .debug .vertical{
     height: 30vh;
+}
+
+.debug .footer{
+    height: 10vh;
+    background-color: rgb(119, 58, 189);
 }
