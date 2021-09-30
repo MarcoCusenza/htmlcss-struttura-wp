@@ -31,20 +31,22 @@ body{
 .margin-bot-std{
     margin-bottom: 2.5vh;
 }
+/* ----- COMMONS ----- */
 
 
 /* +++++ HEADER +++++ */
-.header{
+.header-class{
+    height: 12vh;
 }
+/* ----- HEADER ----- */
 
 
 /* +++++ JUMBOTRON +++++ */
-.jumbo{
-}
+/* ----- JUMBOTRON ----- */
 
 
 /* +++++ MAIN +++++ */
-.main{
+.main-class{
     margin-bottom: 1vh;
 }
 
@@ -60,11 +62,16 @@ body{
     width: 46vw;
     margin: 0 1.5vw 0 1.5vw;
 }
+/* ----- MAIN ----- */
 
 
 /* +++++ FOOTER +++++ */
-.footer{
+.footer-class{
+    height: 6vh;
 }
+/* ----- FOOTER ----- */
+
+
 
 
 /* +++++ DEBUG +++++ */
@@ -74,18 +81,17 @@ body{
     border-radius: 50px;
 }
 
-.debug .header{
-    height: 12vh;
+.debug .header-class{
     background-color: violet;
 }
 
-.debug .jumbotron{
+.debug .jumbo{
     height: 44vh;
     background-color: rgb(231, 231, 133);
 }
 
 /* al main non serve altezza perché ha già del contenuto */
-.debug .main{
+.debug .main-class{
     background-color: rgb(31, 133, 230);
 }
 
@@ -103,7 +109,7 @@ body{
     height: 46vh;
 }
 
-.debug .footer{
-    height: 6vh;
+.debug .footer-class{
     background-color: rgb(144, 85, 211);
 }
+/* ----- DEBUG ----- */
