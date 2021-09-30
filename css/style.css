@@ -1,8 +1,48 @@
 /* +++++ COMMONS +++++ */
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body{
+    padding: 5vh;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 80vw;
+}
+
+
+/* +++++ HEADER +++++ */
+
+
+
+/* +++++ JUMBOTRON +++++ */
+
+
+
+/* +++++ MAIN +++++ */
+
+
+
+/* +++++ FOOTER +++++ */
+
+
+
+/* +++++ DEBUG +++++ */
