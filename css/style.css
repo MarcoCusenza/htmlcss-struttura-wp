@@ -6,7 +6,7 @@
 }
 
 body{
-    padding: 3vh;
+    padding: 2vh;
 }
 
 .left{
@@ -29,7 +29,7 @@ body{
 }
 
 .margin-bot-std{
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
 }
 
 
@@ -53,12 +53,12 @@ body{
 }
 
 .side{
-    width: 18vw;
+    width: 15.5vw;
 }
 
 .central{
-    width: 40vw;
-    margin: 0 2vw 0 2vw;
+    width: 46vw;
+    margin: 0 1.5vw 0 1.5vw;
 }
 
 
@@ -74,12 +74,12 @@ body{
 }
 
 .debug .header{
-    height: 10vh;
+    height: 12vh;
     background-color: violet;
 }
 
 .debug .jumbotron{
-    height: 30vh;
+    height: 44vh;
     background-color: rgb(231, 231, 133);
 }
 
@@ -89,7 +89,7 @@ body{
 }
 
 .debug .top{
-    height: 5vh;
+    height: 8vh;
 }
 
 /* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
@@ -99,10 +99,10 @@ body{
 }
 
 .debug .vertical{
-    height: 30vh;
+    height: 46vh;
 }
 
 .debug .footer{
-    height: 10vh;
-    background-color: rgb(119, 58, 189);
+    height: 6vh;
+    background-color: rgb(144, 85, 211);
 }
